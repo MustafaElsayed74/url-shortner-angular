@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { getApiUrl } from '../config/api.config';
 
 export interface UrlRequest {
     url: string;
@@ -22,7 +23,7 @@ export interface UrlErrorResponse {
     providedIn: 'root'
 })
 export class UrlService {
-    private apiUrl = '/api/urls';
+    private apiUrl = `${getApiUrl()}/urls`;
 
     constructor(private http: HttpClient) { }
 
