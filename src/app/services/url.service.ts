@@ -22,7 +22,7 @@ export interface UrlErrorResponse {
     providedIn: 'root'
 })
 export class UrlService {
-    private apiUrl = 'http://www.urlshort.somee.com/api/urls';
+    private apiUrl = '/api/urls';
 
     constructor(private http: HttpClient) { }
 
