@@ -1,6 +1,6 @@
 export const API_CONFIG = {
-    production: 'https://www.urlshort.somee.com/api',
-    development: 'http://localhost:5000/api'
+    production: 'http://www.urlshort.somee.com/api',
+    development: 'http://localhost:5050/api'
 };
 
 export function getApiUrl(): string {
