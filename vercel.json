@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/urls/(.*)",
-            "destination": "http://www.urlshort.somee.com/api/urls/$1"
+            "destination": "https://www.urlshort.somee.com/api/urls/$1"
         }
     ],
     "headers": [
