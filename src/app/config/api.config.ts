@@ -1,5 +1,5 @@
 export const API_CONFIG = {
-    production: 'https://www.urlshort.somee.com/api',
+    production: '/api',
     development: 'http://localhost:5050/api'
 };
 
